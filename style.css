@@ -1,0 +1,146 @@
+*{
+   padding:0; 
+   margin: 0 ;
+   box-sizing: border-box;
+   font-family: 'Playfair Display', serif;
+   
+}
+.paul{
+    background-image: url('../asset/images/header.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh ;
+   
+}
+.hero-content {
+    max-width:600px ;
+    margin: auto;
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    padding-top: 30vh;
+}
+.hero-content h1{
+ 
+ font-size:60px ;
+ position: relative;
+ margin-bottom:30px;
+
+
+}
+.hero-content h1::before{
+    content:'' ;
+    position:absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    margin: auto;
+    width: 40% ;
+    height:3px ;
+    background-color: white;
+}
+.hero-content p{
+    font-size:30px ;
+}
+/* working section*/
+
+.container{
+    max-width: 1170px ;
+    margin: auto;
+    
+}
+.working-container{
+    display: flex;
+    align-items: center;
+}
+.content-img{
+    margin-top:-10px; 
+     margin-bottom:3px ;
+     margin-left:-50px ;
+     margin-right:20px ;
+}
+.content-img img{
+    content:100% ;
+   
+}
+.working-section{
+    padding:10px;
+}
+.working-content{
+    padding:50px;
+    text-align: justify;
+    color:#41484b;
+}
+.working-content h1{
+    font-size:40px ;
+    margin-bottom:10px ;
+    margin-left:20px ;
+}
+.working-content p{
+    font-size:25px ;
+    margin-right:30px ;
+}
+/* portfolio section*/
+.Portfolio-title h1{
+    font-size: 40px;
+    color:#41484b;
+    text-align: center;
+    padding:40px 0 ;
+}
+.Portfolio-row .image-container img{
+    width:100% ;
+ padding: 10px 15px;
+}
+.Portfolio-row {
+    display:flex;
+} 
+/*.Portfolio-row .image-container{
+    width:33.33%;
+} */ 
+/*passegs section*/
+.passegs{
+    background-color: #42484c;
+    padding:60px 20px ;
+    margin-top:20px ;
+}
+.passegs-content{
+    COLOR:white;
+    text-align: center;
+}
+.passegs-content h1{
+    padding-bottom:20PX ;
+    font-size:40PX ;
+   text-transform: uppercase  ;
+}
+.passegs-content P{
+    font-size:18PX ;
+}
+.passegs-content h3{
+    font-size:28px ;
+    padding-top: 22px;
+}
+.fotter{
+    padding:20px 0px;
+}
+.social-icon{
+    text-align: center;
+}
+.social-icon a{
+    font-size:35px ;
+    background-color: #42484c;
+    color:white;
+    width:70px;
+    height:70px ;
+    display: inline-block;
+    padding:8px ;
+    border-radius:50% ;
+    text-align: center;
+}
+.copyright{
+    text-align: center;
+    padding-bottom:20px ;
+}
+.copyright p{ font-size:20px ;
+color:turquoise;
+}
